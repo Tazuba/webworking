@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>Else soft</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+	<style>
+		#servitem{
+			color:pink;
+		}
+	</style>
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form" action="/">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="btn">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls p-normal">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div>
+	<!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+
+			<!-- header with three Bootstrap columns - left for logo, center for navigation and right for includes-->
+			<header class="page_header ds">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-xl-2 col-lg-3 col-11">
+							<a href="./" class="logo text-center">
+								<img src="images/logo.png" alt="">
+							</a>
+						</div>
+						<div class="col-xl-8 col-lg-6 col-1 text-sm-center">
+							<!-- main nav start -->
+							<nav class="top-nav">
+									<ul class="nav sf-menu">
+										<li class="active">
+											<a href="index">Home</a>
+										</li>
+										<li>
+											<a href="index">About</a>
+										</li>
+
+										<li>
+											<a href="#">Services</a> 
+											<div class="mega-menu">
+												<ul class="mega-menu-row">
+													<li class="mega-menu-col">
+														<a href="#">Wed And Mobile Development</a>
+														<ul>
+															<li>
+																<a href="mobileappdev">Mobile Development</a>
+															</li>
+															<li>
+																<a href="index">Eccomerce Development</a>
+															</li>
+															<li>
+																<a href="index">Web Development</a>
+															</li>
+															<li>
+																<a href="index">Web and mobile Design</a>
+															</li>
+															<li>
+																<a href="index">Desktop Development</a>
+															</li>
+															
+														</ul>
+													</li>
+													<li class="mega-menu-col">
+														<a href="#">Design And Creative</a>
+														<ul>
+															<li>
+																<a href="index">Animation</a>
+															</li>
+															<li>
+																<a href="index">Graphics and Design</a>
+															</li>
+															<li>
+																<a href="index">Log Design and Branding</a>
+															</li>
+															
+														</ul>
+													</li>
+													<li class="mega-menu-col">
+														<a href="#">Sales And Marketing</a>
+														<ul>
+															<li>
+																<a href="index">Email And Marketing Automation</a>
+															</li>
+															<li>
+																<a href="index">Search Enginee Optimisation </a>
+															</li>
+															<li>
+																<a href="index">Social Media Marketing</a>
+															</li>
+														</ul>
+													</li>
+													
+												</ul>
+											</div>
+											<!-- eof mega menu -->
+										</li>
+										
+
+										<li>
+											<a href="index">How it works</a>
+										</li>
+
+										<li>
+											<a href="index">Portfolio</a>
+										</li>
+										<li>
+											<a href="index">Testimonials</a>
+										</li>
+
+										<!-- contacts -->
+										<li>
+											<a href="index">Contact Us</a>
+										</li>
+										<!-- eof contacts -->
+
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+	</div>
+						<div class="col-xl-2 col-lg-3 text-lg-left text-xl-right d-none d-lg-block">
+							<div class="header_phone">
+								<h6>
+									<span>+256779</span>941964
+								</h6>
+							</div>
+						</div>
+						<!-- <div class="search_modal affix-top">
+                <a href="#" class="search_modal_button header-button">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div> -->
+					</div>
+				</div>
+				<!-- header toggler -->
+				<span class="toggle_menu">
+					<span></span>
+				</span>
+			</header>
+
+<section class="page_slider main_slider">
+				<div class="flexslider" data-nav="true" data-dots="false">
+					<ul class="slides">
+						<li class="ds text-center slide2">
+							<span class="flexslider-overlay"></span>
+							<img src="images/appdev/elseapp.png" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-12 itro_slider">
+										<div class="intro_layers_wrapper">
+											<div class="intro_layers">
+												
+											</div>
+											<!-- eof .intro_layers -->
+										</div>
+										<!-- eof .intro_layers_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li class="ds text-center slide1">
+							<span class="flexslider-overlay"></span>
+							<span class="embed-responsive embed-responsive-16by9">
+							<video autoplay muted loop id="myVideo" width=100%>
+							<source src="images/appdev/work.mp4" type="video/mp4">
+							</video>
+								
+							</span>
+							<div class="container">
+								<div class="row">
+									<div class="col-12 itro_slider">
+										<div class="intro_layers_wrapper">
+											<div class="intro_layers">
+												<div class="intro_layer" data-animation="fadeIn">
+													<p class="text-uppercase intro_after_featured_word">We are proud of our</p>
+												</div>
+
+												<div class="intro_layer" data-animation="slideRight">
+													<h2 class="text-uppercase intro_featured_word">
+													works
+													</h2>
+												</div>
+												<div class="intro_layer page-bottom" data-animation="expandUp">
+													<a class="btn btn-maincolor" href="contact">Get Started</a>
+												</div>
+											</div>
+											<!-- eof .intro_layers -->
+										</div>
+										<!-- eof .intro_layers_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li class="ds text-center slide3">
+							<img src="images/appdev/phone.png" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-12 itro_slider">
+										<div class="intro_layers_wrapper">
+											<div class="intro_layers">
+												
+												<div class="intro_layer page-bottom" data-animation="expandUp">
+													<a class="btn btn-maincolor" href="contact">Get Started</a>
+												</div>
+											</div>
+											<!-- eof .intro_layers -->
+										</div>
+										<!-- eof .intro_layers_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+
+					</ul>
+				</div>
+				<!-- eof flexslider -->
+				<div class="flexslider-bottom d-none d-xl-block">
+					<a href="#about" class="mouse-button animated floating"></a>
+				</div>
+			</section>
+
+			<section class="ls s-pt-50 s-pb-100 container-px-0 gallery-list">
+				<div class="d-none d-lg-block divider-20"></div>
+				<div class="container animate" data-animation="fadeInUp" data-delay="150">
+					<div class="row c-mb-30 c-mb-xl-60 c-gutter-60">
+						<div class="col-xl-8">
+							<div class="item-media">
+								<img src="images/appdev/pwa.png" alt="">
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="item-content">
+								<h6>
+									<a href="/gallery-item3.html">PWA</a>
+								</h6>
+								<div class="small-text link-a">
+									<a href="#"></a>
+								</div>
+								<p>
+								Here at Else soft you will meet ambitious web app developers who are looking 
+								for new challenging tasks. We can tackle projects of any scale and complexity,
+								 and have enough expertise to integrate the client’s software and hardware within a new
+								  web application. We are experienced in third-party code review. And can finalise any
+								   job, which has failed to be completed by other third-party programmers, or has taken 
+								   too much of your in-house team’s time. Our expertise covers such programming languages
+								    as JS, PHP, Python and many others. We also utilize a wide variety of frameworks,
+									 like React, Angular.js, Backbone.js, Vue 2.0 and use modern libraries as JQuery,
+									  JSON,
+								 EntityFramework, ASP.NET MVC to deliver quality projects within the shortest time.
+								</p>
+								<div>
+									<a href="#" class="btn btn-outline-maincolor">Know More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row c-mb-30 c-mb-xl-60 c-gutter-60 animate" data-animation="fadeInUp" data-delay="150">
+						<div class="col-xl-8">
+							<div class="item-media">
+								<img src="images/appdev/ios.png" alt="">
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="item-content">
+								<h6>
+									<a href="index">ios</a>
+								</h6>
+								<div class="small-text link-a">
+									<a href="#">Native</a>
+								</div>
+								<p>
+								Over the years iOS application development has been a top priority for Else app developers. With the introduction of iOS 11, Apple has set a new standard. By the same token, our development team has reached new
+								heights in building iOS apps and successfully launching them in the App Store.
+								</p>
+								<div>
+									<a href="#" class="btn btn-outline-maincolor">Know More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row c-mb-30 c-mb-xl-60 c-gutter-60 animate" data-animation="fadeInUp" data-delay="150">
+						<div class="col-xl-8">
+							<div class="item-media">
+								<img src="images/appdev/andriod.png" alt="">
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="item-content">
+								<h6>
+									<a href="/gallery-item3.html">Android Development</a>
+								</h6>
+								<div class="small-text link-a">
+									<a href="#">Native</a>
+								</div>
+								<p>
+								Android OS is the perfect platform for businesses, reaching out to the largest pool of buyers. In each project realisation, we are thinking about the objectives of your company and user satisfaction. Our Android programmers are creating reliable, fast and engaging apps,
+							 implemented in the bespoke software data privacy protection, battery-life savings and user-friendly interfaces.
+								</p>
+								<div>
+									<a href="#" class="btn btn-outline-maincolor">Know More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					
+					<div class="row c-mb-30 c-mb-xl-60 c-gutter-60 animate" data-animation="fadeInUp" data-delay="150">
+						<div class="col-xl-8">
+							<div class="item-media">
+								<img src="images/appdev/hybrid.png" alt="">
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="item-content">
+								<h6>
+									<a href="/gallery-item3.html">Hybrid Apps</a>
+								</h6>
+								<div class="small-text link-a">
+									<a href="#"></a>
+								</div>
+								<p>
+								A (hybrid app) is a software application that combines elements of both native apps and web applications. Hybrid apps are essentially web apps that have been put in a native app shell. Once they are downloaded from an app store and installed locally, the shell is able to connect to whatever capabilities the mobile platform provides through a browser that's embedded in the app. The browser and its plug-ins run on the back end and are invisible to the end user.
+								</p>
+								<div>
+									<a href="#" class="btn btn-outline-maincolor">Know More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+<!--  -->
+
+					<div class="row c-gutter-60">
+						
+					</div>
+				</div>
+				<div class="d-none d-lg-block divider-105"></div>
+			</section>
+
+			<footer class="page_footer corner-footer ds s-pt-30 s-pb-0 s-pb-lg-10 s-pb-xl-50 c-gutter-60 s-parallax">
+
+<div class="container">
+    <div class="container">
+        <div class="row">
+            <div class="divider-20 d-none d-xl-block"></div>
+            <div class="col-md-12 mt-4 text-center animate" data-animation="fadeInUp">
+                <img class="margin-negative" src="images//footer_logo.png" alt="">
+                <div class="widget widget_social_buttons">
+                    <a href="#" class="fa fa-facebook color-icon" title="facebook"></a>
+                    <a href="#" class="fa fa-twitter color-icon" title="twitter"></a>
+                    <a href="#" class="fa fa-google color-icon" title="google"></a>
+                    <a href="#" class="fa fa-youtube-play color-icon" title="youtube-play"></a>
+                    <a href="#" class="fa fa-linkedin color-icon" title="linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+
+
+<section class="page_copyright light-copy cs s-py-20 s-py-lg-5 s-parallax copyright">
+<div class="container">
+    <div class="row align-items-center">
+        <div class="divider-20 d-none d-lg-block"></div>
+        <div class="col-md-12 text-center">
+            <p>&copy; Copyright
+                <span class="copyright_year">2020</span> All Rights Reserved</p>
+        </div>
+        <div class="divider-20 d-none d-lg-block"></div>
+    </div>
+</div>
+</section>
+
+
+</div>
+<!-- eof #box_wrapper -->
+</div>
+<!-- eof #canvas -->
+
+
+<script src="js/compressed.js"></script>
+<script src="js/main.js"></script>
+<!-- Google Map Script -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+
+</body>
+
+</html>
